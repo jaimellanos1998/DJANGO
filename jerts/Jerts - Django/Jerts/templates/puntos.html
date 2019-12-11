@@ -1,0 +1,124 @@
+{% load static %}
+
+<html lang="es-cl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jerts</title>
+    <link rel="icon" type="Inicio/img_inicio/jpg" href="{% static 'Inicio/img_inicio/logo_jerts.jpeg' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href=" {% static 'css/flexboxgrid.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.css ">
+    <link rel="stylesheet" href=" {% static 'Puntos/css/Puntos.css' %}">
+</head>
+
+<body>
+{% include 'menu.html' %}
+<h1 class="back">  Bienvenido al cuestionario de jerts para tus descuentos.</h1>
+ <form>
+     <label>  <h1 class="letra"> Pregunta Numero 1</h1></label>
+
+     <h2> ¿Cuanta distancia debe mantener un vehiculo detras del otro?.</h2>
+      <input class="centrar"  type="radio" required>   <label> <h4 > 15 metros. </h4> </label>
+     <br>
+      <input class="centrar"  type="radio"> <label> <h4> 20 metros. </h4>  </label>
+     <br>
+      <input class="centrar"  type="radio"><label> <h4> 30 metros. </h4>  </label>
+
+ </form>
+ <form>
+     <label>  <h1 class="letra"> Pregunta Numero 2</h1></label>
+
+     <h2> ¿Usted llega a una intersección regulada por un semáforo que se encuentra en rojo y, al mismo tiempo, un Carabinero le indica que avance, ¿Qué debe hacer usted?
+?.</h2>
+    <input class="centrar" type="radio"> <label> <h4 > 	Detenerse, porque la luz roja se lo está indicando.</h4>   </label>
+     <br>
+      <input class="centrar" type="radio"><label> <h4> Avanzar, porque las instrucciones de un Carabinero prevalecen sobre las señales del tránsito. </h4>  </label>
+     <br>
+     <input class="centrar" type="radio">  <label> <h4> Avanzar, sólo si detrás suyo no vienen otros vehículos. </h4>  </label>
+
+ </form>
+ <form>
+     <label><h1 class="letra">Pregunta Numero 3</h1></label>
+     <h2>Respecto al rendimiento de combustible. ¿Las aceleraciones a fondo de motor aumentan el consumo? </h2>
+      <input class="centrar" type="radio"> <label> <h4 > 	No, el consumo siempre es el mismo.</h4>  </label>
+     <br>
+       <input class="centrar" type="radio"> <label> <h4>Si genera un uso excesivo de combustible. </h4> </label>
+     <br>
+       <input class="centrar" type="radio"> <label> <h4> No hay variacion porque el motor consume lo mismo mientras funciona. </h4> </label>
+ </form>
+  <form>
+     <label><h1 class="letra">Pregunta Numero 4</h1></label>
+     <h2>En una ocasión de mucha neblina usted va detrás de otros vehículos y lleva encendidas sus luces bajas. ¿De qué otra forma puede reducir las probabilidades de verse involucrado en un accidente? </h2>
+     <input class="centrar" type="radio"> <label> <h4 >Usando sus luces altas en vez bajas.	</h4>   </label>
+     <br>
+      <input class="centrar" type="radio"><label> <h4>Circulando a baja velocidad y aumentando la distancia del vehiculo que va adelante.</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Encendiendo sus luces de advertencia de peligo.  </h4>  </label>
+ </form>
+ <form>
+     <label><h1 class="letra">Pregunta Numero 5</h1></label>
+     <h2>¿Cómo puede prevenir usted el riesgo de incendio de su vehículo? </h2>
+    <input class="centrar" type="radio">  <label> <h4 >Manteniendo los niveles de agua sobre el maximo.	</h4>   </label>
+     <br>
+     <input class="centrar" type="radio">  <label> <h4>Evitando conducir con el estanque lleno de combustible.</h4>  </label>
+     <br>
+     <input class="centrar" type="radio">  <label> <h4>Usando gasolina sin plomo. </h4>  </label>
+ </form>
+<form>
+     <label><h1 class="letra">Pregunta Numero 6</h1></label>
+     <h2>¿Cómo puede prevenir usted el riesgo de incendio de su vehículo? </h2>
+      <input class="centrar" type="radio"> <label> <h4 >Manteniendo los niveles de agua sobre el maximo.	</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Evitando conducir con el estanque lleno de combustible.</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Usando gasolina sin plomo. </h4>  </label>
+ </form>
+<form>
+     <label><h1 class="letra">Pregunta Numero 7</h1></label>
+     <h2>¿Cada cuántos kilómetros deben rotarse los neumáticos? </h2>
+      <input class="centrar" type="radio"> <label> <h4>	Entre 2.000 y 4.000 kilómetros.	</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Entre 3.000 y 6.000 kilómetros.</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Entre 6.000 y 8.000 kilómetros. </h4>  </label>
+ </form>
+<form>
+     <label><h1 class="letra">Pregunta Numero 8</h1></label>
+     <h2>Usted pretende doblar hacia la izquierda en un cruce, pero hay vehículos estacionados que le obstruyen la visual. ¿Qué debería hacer usted? </h2>
+      <input class="centrar" type="radio"> <label> <h4 >Avanzar rápidamente, pero estando preparado para detenerse.
+	</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Tocar la bocina y avanzar lentamente..</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>	Detenerse, luego avanzar lentamente hasta que tenga una visual plena. </h4>  </label>
+ </form>
+<form>
+     <label><h1 class="letra">Pregunta Numero 9</h1></label>
+     <h2>Al conducir debo tener especial cuidado con los siguientes peatones: </h2>
+      <input class="centrar" type="radio"> <label> <h4 id="h13">Ancianos, Niños	</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Solo Ancianos</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>Ancianos, niños y personas usando reproductores de música y celulares </h4>  </label>
+ </form>
+<form>
+     <label><h1 class="letra">Pregunta Numero 10</h1></label>
+     <h2>Al conducir a 70 km/hr, ¿Con qué marcha tendría mayor rendimiento de combustible? </h2>
+      <input class="centrar" type="radio"> <label> <h4>3ra Velocidad	</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>4ta Velocidad.</h4>  </label>
+     <br>
+      <input class="centrar" type="radio"> <label> <h4>5ta Velocidad. </h4>  </label>
+ </form>
+                  <button> Enviar Respuestas  </button>
+
+<br>
+<br>
+
+
+
+<body/>
